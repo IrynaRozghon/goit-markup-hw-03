@@ -42,7 +42,7 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid gold;
+
 }
 
 .page-header {
@@ -52,11 +52,7 @@ body {
 .cont-navul {
   display: flex;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+ 
 }
 
 .main-nav {
@@ -190,6 +186,7 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+
 }
 .qualities {
   /*.visually-hidden*/
@@ -238,7 +235,8 @@ body {
 
 /*Section services*/
 .section-services {
-  padding-bottom: 94px;
+  padding-top: 0; 
+
 }
 
 .services {
@@ -263,8 +261,6 @@ body {
 
 .section-team {
   background-color: var(--others-background);
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .team {
